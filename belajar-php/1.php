@@ -9,13 +9,10 @@
     <?php
       echo "ini teks 1";
      ?>
-     <br>
-    <%
-      echo "penulisan dengan kombinasi";
-      $str="penulisan dengan kombinasi";
-    %>
-    <%
-      =$str;
-    %>
+     <?php
+      echo "ini teks 1";
+      ECHO "ini teks 2";
+      ?>
+
   </body>
 </html>
