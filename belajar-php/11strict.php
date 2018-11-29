@@ -1,3 +1,10 @@
+<?php
+  declare(strict_types= 1);
+  ini_set('display_errors', "1");
+  function sum(int ...$ints){
+    return array_sum($ints);
+  }
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -5,13 +12,6 @@
     <title>strict</title>
   </head>
   <body>
-    <?php
-      declare(strict_type=1);
-      ini_set('display_errors', "1");
-      function sum(int ...$ints){
-        return array_sum($ints);
-      }
-    ?>
 
     penjumlahan isi array semua array numerik =
     <?php

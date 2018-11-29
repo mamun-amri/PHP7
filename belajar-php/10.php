@@ -6,7 +6,7 @@
   </head>
   <body>
     <?php
-      function sum(int ... $ints){
+      function sum(int ...$ints){
         return array_sum($ints);
       }
     ?>

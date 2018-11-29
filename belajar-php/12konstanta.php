@@ -14,7 +14,7 @@
     <h2>menghitung luas lingkaran</h2>
     <?php
       $r=7;
-      $luas=PHI*2*$r;
+      $luas=PHI*$r*$r;
       $keliling=PHI*2*$r;
       print("<br /> jari-jari : ".$r);
       print("<br /> luas lingkaran : ".$luas);
